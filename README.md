@@ -41,7 +41,8 @@ lite.get_lines() # get text lines
 lite.get_text() # get text, no lines
 lite.get_tokens() # get tokens
 lite.get_sentences() # get sentences
-lite.get_preproc_tokens(self, add_stopwords = [], stemming = False) # get preproc. tokens, without sw, after lemmatizz. or stemming
+# get preproc. tokens, without sw, after lemmatizz. or stemming
+lite.get_preproc_tokens(self, add_stopwords = [], stemming = False)
 lite.get_pos_tag(tokens = []) # get tags of tokens
 lite.get_occurrences(list_of_words = [], p_tokens = True, words_num = 20) # return occurrences of a word 
 lite.get_sentiment_analysis(list_of_words = []) # get vader sa of a text or a list of words
@@ -63,7 +64,8 @@ draw.get_sentiment_draw(list_of_words=[]) # draw vader sa
 from text_processing import Lite
 
 meta = Lite('metamorphosis.txt') # INIT.
-print(meta.get_tokens()[:10]) # ['one', 'morning', 'when', 'gregor', 'samsa', 'woke', 'from', 'troubled', 'dreams', 'he']
+print(meta.get_tokens()[:10]) 
+# print: ['one', 'morning', 'when', 'gregor', 'samsa', 'woke', 'from', 'troubled', 'dreams', 'he']
 
 draw = LiteDrawing('metamorphosis.txt')
 
