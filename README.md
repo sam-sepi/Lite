@@ -3,7 +3,7 @@ Python library for new forms of literary criticism
 
 # Getting Started
 
-Clone it: git clone https://github.com/sam-sepi/Lite.git
+git clone https://github.com/sam-sepi/Lite.git
 
 ```python
 from text_processing import Lite
