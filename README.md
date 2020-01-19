@@ -1,5 +1,5 @@
 # Lite
-Python library for new forms of literary criticism
+Python library for distant reading.
 
 # Getting Started
 
