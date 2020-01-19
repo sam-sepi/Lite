@@ -167,7 +167,7 @@ class Lite:
         with open(file_name, 'w') as api_json:
             json.dump(my_data, api_json, indent = 4)
 
-# Ereditarietà
+# Inheritance
 class LiteDrawing(Lite):
     
     # get_pos_tag_draw
